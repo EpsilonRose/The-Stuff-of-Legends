@@ -4,12 +4,12 @@
 \contentsline {section}{Ying}{5}{section*.11}
 \contentsline {section}{Alchemist}{7}{section*.20}
 \contentsline {section}{Summoner}{10}{section*.35}
-\contentsline {section}{Two Weapon Fighting}{12}{section*.44}
-\contentsline {section}{Acrobat}{14}{section*.53}
-\contentsline {section}{Lawbearer}{15}{section*.62}
-\contentsline {section}{Hunter\IeC {\textquoteright }s Marks}{16}{section*.71}
-\contentsline {section}{Rage}{17}{section*.80}
-\contentsline {section}{Battle Bonds}{19}{section*.89}
+\contentsline {section}{Two Weapon Fighting}{11}{section*.44}
+\contentsline {section}{Acrobat}{13}{section*.53}
+\contentsline {section}{Lawbearer}{14}{section*.62}
+\contentsline {section}{Hunter\IeC {\textquoteright }s Marks}{15}{section*.71}
+\contentsline {section}{Rage}{16}{section*.80}
+\contentsline {section}{Battle Bonds}{18}{section*.89}
 \contentsline {chapter}{\numberline {2}Features}{21}{chapter.2}
 \contentsline {subsubsection}{Ancestral Weapon}{21}{section*.100}
 \contentsline {subsubsection}{Armory}{21}{section*.101}

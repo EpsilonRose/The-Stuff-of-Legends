@@ -18,7 +18,6 @@
 \setcounter{secnumdepth}{0}
 
 \usepackage{indentfirst}
-
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
 
@@ -35,20 +34,20 @@
 \raggedcolumns
 \tableofcontents
 
-\include{tracks}
+\input{./Tracks/tracks.tex}
 %Major
-\include{brawler}
-\include{ying}
-\include{alchemist}
-\include{summoner}
+\input{./Tracks/brawler}
+\input{./Tracks/ying}
+\input{./Tracks/alchemist}
+\input{./Tracks/summoner}
 %Minor
-\include{twoweaponfighting}
-\include{acrobat}
-\include{lawbearer}
+\input{./Tracks/twoweaponfighting}
+\input{./Tracks/acrobat}
+\input{./Tracks/lawbearer}
 %Passive
-\include{huntersmarks}
-\include{rage}
-\include{battlebonds}
+\input{./Tracks/huntersmarks}
+\input{./Tracks/rage}
+\input{./Tracks/battlebonds}
 
 \include{features}
 
