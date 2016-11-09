@@ -1,0 +1,44 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[Sonny]{fncychap}
+\usepackage[a4paper, nomarginpar, margin=1in, foot=.25in, head=.25in]{geometry}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{xcolor,colortbl}
+\usepackage[bookmarks=true]{hyperref}
+\usepackage{pifont}
+\definecolor{LinkColor}{RGB}{0,0,238}
+\hypersetup{colorlinks, linkcolor=LinkColor}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+
+\usepackage{indentfirst}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+\newcommand{\perk}{$^\text{\small{\circled{p}}}$}
+\newcommand{\R}{{[R]}}
+\newcommand{\Facet}{{Facet}}
+\newcommand{\facet}{{facet}}
+
+\newcommand*\thing{\item[\ding{226}]}
+\newcommand*\thingTwo{\item[\ding{228}]}
+
+\begin{document}
+
+\raggedcolumns
+\tableofcontents
+
+\include{tracks}
+
+\include{features}
+
+\include{monsters}
+ 
+\end{document}

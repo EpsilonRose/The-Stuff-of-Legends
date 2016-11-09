@@ -1,0 +1,139 @@
+\chapter{Monster Abilities and Creation}
+
+Every intrepid adventurer needs a dangerous, meaty wall of flesh to stand between them and their heroic deeds. Preferably interesting ones with exotic powers and strange, deadly abilities, so when they re-tell the tale later it’s much more interesting than that \emph{other} adventurers stories about how they felled a horde of weak, puny monsters.
+
+
+Here’s a quick, powerful ruleset to build them.
+
+\subsubsection{Monster Generation Step-by-Step}
+\begin{enumerate}
+\item Assign a level, and then use the base stats by level from the Basic Stats Table.
+\item Assign attributes, with the following array: 4, 2, 1, 0.
+\begin{enumerate}
+\item \textbf{Brawn}: Each point of brawn lets you make a combat maneuver as a free action once per encounter.
+\item \textbf{Agility}: Each point of agility lets you increase your speed by two for one round once per encounter.
+\item \textbf{Brains}: Each point of brains lets the monster pick an additional primary major, secondary major or minor ability.
+\item \textbf{Mojo}: Each point of mojo lets you raise or lower your target priority by one for one enemy for round. If you raise it, you can take a surge on someone who violates this target priority. If you lower it, you gain a 25\% dodge chance against attacks that violate this target priority.
+\end{enumerate}
+\item Choose between:
+\begin{enumerate}
+\item \textbf{Wield Weapons}: The monster possesses three weapons, and can switch between them, similar to a PC.
+\item \textbf{Natural Weapon}: The monster possesses a single natural weapon, and cannot be disarmed.
+\end{enumerate}
+\item Choose two major abilities. A monster at least one primary major ability, this can be by having either a primary major abilities and a secondary major abilities, or having two primary major abilities. Primary major abilities are suitable for a backbone ability, while secondary major abilities are intended for more occasional use, or as a backup if they can't use their primary major for whatever reason. It is strongly recommended that each monster have something it can use at range and in melee.
+\item Choose one minor ability. In addition to this, all monsters gain the Rest minor ability for free.
+\item If the monster has a Brain attribue higher than 0, choose an additional primary major ability, secondary major ability or minor ability for each point that the monster has in brains.
+\item Define Surges.
+\begin{enumerate}
+\item If the creature has no abilities that grant a surge, they can use the basic surge.
+\item If the creature has multiple abilities that grant surges, they can choose between all of their available surges when making a surge attack.
+\item Abilities with the [surge] tag can be used as a surge ability. If the minor ability attaches a rider, the target of the surge is targeted by the rider.
+\end{enumerate}
+\item Choose a passive ability.
+\item Determine tactical abilities.
+\begin{enumerate}
+\item Creatures of levels 1 to 4 gain one tactical ability. Creatures of levels 5 to 10 gain two tactical abilities. Creatures of levels 11 to 16 get three tactical abilities. Creatures of levels 17 or higher gain four tactical abilities.
+\item A creature may swap a tactical ability for the native ability if the situation warrants it.
+\item A monster with one aspect gets half the number of tactical abilities, rounded down. A monster with two or more aspects gains no tactical abilities.
+\end{enumerate}
+\end{enumerate}
+
+\begin{figure}[h]
+\center
+\begin{tabular}{c c}
+\begin{tabular}{p{0.5\textwidth}}
+\textbf{Basic Surge}: The creature has a basic surge unless otherwise specified by a major action.\\ 
+
+It is at normal accuracy and does damage according to Row S. 
+\end{tabular} &
+
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline 
+\textbf{Lvl} & 1 & 2 & 3 & 4 & 5 \\
+\hline
+\textbf{S} & 10 & 21 & 31 & 42 & 70 \\
+\hline
+\multicolumn{6}{c}{ }\\
+\hline
+\textbf{Lvl} & 6 & 7 & 8 & 9 & 10 \\
+\hline
+\textbf{S} & 84 & 98 & 112 & 126 & 140 \\
+\hline
+\multicolumn{6}{c}{ }\\
+\hline
+\textbf{Lvl} & 11 & 12 & 13 & 14 & 15 \\
+\hline
+\textbf{S} & 192 & 210 & 227 & 245 & 262 \\
+\hline
+\multicolumn{6}{c}{ }\\
+\hline
+\textbf{Lvl} & 16 & 17 & 18 & 19 & 20 \\
+\hline
+\textbf{S} & 280 & 357 & 378 & 399 & 420 \\
+\hline
+\end{tabular}
+\end{tabular}
+\end{figure}
+
+\begin{figure}[h]
+\center
+\textbf{Basic Stats Table}\\
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|}
+\hline 
+\textbf{Lvl} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+\textbf{HP} & 48 & 96 & 144 & 192 & 320 & 384 & 448 & 512 & 576 & 640 \\
+\hline
+\textbf{AR} & +2 & +3 & +4 & +5 & +6 & +7 & +8 & +9 & +10 & +11 \\
+\hline
+\textbf{DV} & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\
+\hline
+\textbf{AV} & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 \\
+\hline
+\textbf{AR} & +1 & +2 & +3 & +4 & +5 & +6 & +7 & +8 & +9 & +10\\
+\hline
+\multicolumn{11}{c}{ } \\
+\hline 
+\textbf{Lvl} & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\
+\hline
+\textbf{HP} & 880 & 960 & 1040 & 1120 & 1200 & 1280 & 1632 & 1728 & 1824 & 1920 \\
+\hline
+\textbf{AR} & +12 & +13 & +14 & +15 & +16 & +17 & +18 & +19 & +20 & +21 \\
+\hline
+\textbf{DV} & 21 & 22 & 23 & 24 & 25 & 26 & 27 & 28 & 29 & 30 \\
+\hline
+\textbf{AV} & 23 & 24 & 25 & 26 & 27 & 28 & 29 & 30 & 31 & 32 \\
+\hline
+\textbf{AR} & +11 & +12 & +13 & +14 & +15 & +16 & +17 & +18 & +19 & +20\\
+\hline
+\end{tabular}
+\end{figure}
+
+\subsection*{Monster Abilities}
+\subsubsection{Primary Major Abilities}
+\begin{tabular}{|c c c c c|}
+\hline
+\multicolumn{5}{|c|}{\cellcolor{gray}\textbf{Offense}} \\
+\hline
+Auto-Damage & Basic Attack & Blaster & Binding$^\ast $  & Disorienting Blows \\
+ & & & & \\
+Flurry$^\ast $  & Improved Grab & Precise$^\ast $  & Rend$^\ast $  & Slug$^\ast $  \\
+ & & & & \\
+ & Swarm & Touch of Death & Tripper$^\ast $ & \\
+\hline
+\multicolumn{5}{c}{ }\\
+\hline
+\multicolumn{5}{|c|}{\cellcolor{gray}\textbf{Defense}} \\
+\hline
+ & Drain$^\ast $ & Leech$^\ast $ & Vampiric$^\ast $ & \\
+\hline
+\multicolumn{5}{c}{ }\\
+\hline
+\multicolumn{5}{|c|}{\cellcolor{gray}\textbf{Other - (V)aried and (M)ixed}} \\
+\hline
+ & Hampering$^\ast $ (M) & & Major Aspect$^\ast $ (V)  & \\
+\hline
+\end{tabular}
+
+
+
